@@ -1,0 +1,14 @@
+[package]
+name = "environment_tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ratatui = "0.28.1"
+anyhow = "1.0.89"
+directories = "5.0.1"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+clap = { version = "4.5.18", features = ["derive"] }
+normalize-path = "0.2.1"
+hodaun = "0.4.1"
